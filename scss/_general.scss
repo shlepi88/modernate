@@ -1,0 +1,32 @@
+@import 'variables';
+
+.container {
+    border: 5px solid #333;
+    border-top: 5px solid $main-color;
+    font-family: Georgia, sans-serif;
+    margin: 30px auto;
+    padding: 0;
+    box-shadow: 10px 10px 20px #aaaaaa;
+    background: $lighter-gray;
+}
+
+.inner-container {
+    width: 100%;
+    background: url('../img/girl-447701_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-shadow {
+    width: 100%;
+    padding: 20px 0;
+    background: rgba($color: #000, $alpha: .5);
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}

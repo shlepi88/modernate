@@ -1,0 +1,45 @@
+@import 'variables';
+
+.navbar {
+    
+}
+
+.navbar-brand {
+    font-size: 2.33rem;
+    color: #fff;
+    line-height: 15px;
+    &:hover {
+        color: $main-color;
+    }
+    span {
+        font-size: 0.9rem;
+    }
+}
+
+.nav-link {
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.nav-item {
+    padding: 0 5px;
+    margin: 0 5px;
+    &:hover {
+        background: $main-color;
+        border-radius: 10px;
+    }
+}
+
+.navbar-toggler {
+    border: 2px solid #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    background: $main-color;
+    color: #fff;
+    border: none;
+}

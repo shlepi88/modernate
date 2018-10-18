@@ -1,0 +1,54 @@
+@import 'variables';
+
+.contact-title {
+    color: #fff;
+    font-size: 1.33rem;
+}
+
+.post-link {
+    color: $main-color;
+    text-decoration: none !important;
+    span {
+        color: #808080;
+    }
+}
+
+.admin {
+    font-size: 0.83rem;
+}
+
+.blog-text {
+    color: #808080;
+    margin-top: 10px;
+}
+
+.links {
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        color: $main-color;
+        border-bottom: 0.1px solid #808080;
+        padding: 5px 0;
+        a {
+            // color: $main-color;
+            text-decoration: none;
+            &:hover {
+
+            }
+        }
+    }
+}
+
+.form-control, .contact-btn {
+    background: #222222;
+    color: #989898 !important;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-btn:hover {
+    background: $main-color;
+    color: #000 !important;
+}
