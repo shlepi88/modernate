@@ -21,9 +21,6 @@
     padding: 0;
     border: 25px solid $image-border;
     border-radius: 50%;
-    background: url('../img/girl-1863906_640.jpg');
-    background-size: cover;
-    background-position: center;
     margin-top: 20px;
 }
 
@@ -31,4 +28,44 @@
     background: $main-color;
     border-radius: 10px;
     color: #fff;
+}
+
+// Media Querys
+
+@media (max-width: 768px) {
+    .hero-description {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-image {
+        max-width: 320px;
+        height: 320px;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 439px) {
+
+    .hero-title {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-image {
+        max-width: 220px;
+        height: 220px;
+        border: 15px solid $image-border;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
 }

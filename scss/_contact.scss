@@ -32,11 +32,7 @@
         border-bottom: 0.1px solid #808080;
         padding: 5px 0;
         a {
-            // color: $main-color;
             text-decoration: none;
-            &:hover {
-
-            }
         }
     }
 }
@@ -51,4 +47,12 @@
 .contact-btn:hover {
     background: $main-color;
     color: #000 !important;
+}
+
+// Media Querys
+
+@media (max-width: 1200px) {
+    .contact div, form {
+        margin-top: 20px;
+    }
 }

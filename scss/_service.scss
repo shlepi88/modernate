@@ -14,13 +14,21 @@
         background: $main-color;
         color: #fff;
     }
-}
 
-.fa {
-    font-size:7.5rem;
-    margin: 20px auto;
+    .fa {
+        font-size: 7.5rem;
+        margin: 20px auto;
+    }
 }
 
 .card-title {
     font-size: 2.66rem;
+}
+
+// Media Querys
+@media (max-width: 992px) {
+    .card {
+        max-width: 320px;
+        margin-bottom: 30px;
+    }
 }
